@@ -1,20 +1,7 @@
 /* TAG SELECTORS */
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    line-height: 1.5;
-    font-size: 3.5rem;
-}
-
-h2 {
-    font-weight: 700;
-}
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
 }
 
 p {
@@ -24,22 +11,25 @@ p {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-/* CLASS SELECTORS */
+/* CONTAINER */
 
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
 
-/* ID SELECTORS */
+/* SECTIONS */
 
-#title {
+.colored-section {
     background-color: #ff4c68;
     color: white;
-
 }
 
+.white-section {
+    background-color: #fff;
+}
 /* ------------------------------ WEB LAYOUT------------------------------------- */
 
 
@@ -70,7 +60,23 @@ body {
     margin: 5% 3% 5% 0;
 }
 
-/* TITLE IMAGE */
+
+
+/* TITLE */
+
+#title {
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.big-heading {
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
 
 .title-image {
     width: 60%;
@@ -93,9 +99,6 @@ body {
 /* FEATURES */
 
 #features {
-    background-color: #fff;
-    text-align: center;
-    padding: 7% 15%;
     position: relative;
     z-index: 1;
 }
@@ -108,20 +111,20 @@ body {
     color: #ff4c68;
 }
 
-
-
-
-
+.features-text {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
 
 /* TESTIMONIALS */
 
 #testimonials {
     background-color: #ef8172;
-    text-align: center;
-    color: #fff;
 }
 
-
+.testimonial-text {
+    font-weight: 700;
+}
 
 .testimonial-image {
     width: 10%;
@@ -129,12 +132,8 @@ body {
     margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
 #press {
     background-color: #ef8172;
-    text-align: center;
 }
 
 .press-logo {
@@ -146,7 +145,15 @@ body {
 
 #pricing {
     padding: 100px;
-    text-align: center;
+}
+
+.pricing-main {
+    font-weight: 700;
+}
+
+.pricing-title {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .pricing-column {
@@ -156,20 +163,12 @@ body {
 
 /* CTA */
 
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: center;
-    padding: 7% 15%
+.cta-title {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 /* FOOTER */
-
-#footer {
-    background-color: #fff;
-    text-align: center;
-    padding: 7%;
-}
 
 #footer i {
     margin: 0 5px 0 5px;
